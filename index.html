@@ -52,9 +52,9 @@
                     <div class="mb-4">
                         <select id="maritalStatus" class="py-2 px-3" name="" required>
                             <option value="الحالة الاجتماعية">الحالة الاجتماعية</option>
-                            <option value="أعزب">أعزب</option>
-                            <option value="مطلق">مطلق</option>
-                            <option value="أرمل">أرمل</option>
+                            <option value="عزباء">عزباء</option>
+                            <option value="مطلقة">مطلقة</option>
+                            <option value="أرملة">أرملة</option>
                         </select>
                     </div>
                     <div class="mb-4">
@@ -67,207 +67,38 @@
                 </div>
                 <div class="div-holder d-flex justify-content-between align-items-center">
                     <div class="mb-4 w-50">
-                        <textarea id="yourChildrenIfHave" class="w-100 py-2 px-3" name="" id="" placeholder="عدد الاولاد واعمارهم ان وجد"></textarea>
+                        <textarea name="" class="w-100 py-2 px-3" id="children" placeholder="عدد الأولاد وأعمارهم وحضانتهم مع مين اذا وجد"></textarea>
                     </div>
                     <div class="mb-4 w-50 me-2">
-                        <textarea id="exTimes" class="w-100 py-2 px-3" name="" id="" placeholder="كم مرة ارتبطت   (كم خطوبه او كم عقد زواج) وكم استمر:  "></textarea>
+                        <textarea name="" class="w-100 py-2 px-3" id="exTimes" placeholder="كم مرة ارتبطت   (كم خطوبه او كم عقد زواج)"></textarea>
                     </div>
-                </div>
+                </div>  
                 <div class="div-holder d-flex justify-content-between align-items-center">
                     <div class="mb-4">
-                        <input id="qualification" class="py-2 px-3" type="text" placeholder="المؤهل" required>
+                        <input type="text" class="py-2 px-3" id="qualification" placeholder="المؤهل">
                     </div>
                     <div class="mb-4">
-                        <input id="fatherWork" class="py-2 px-3" type="text" placeholder="عمل الوالد" required>
+                        <input type="text" class="py-2 px-3" id="residence" placeholder="أين تقيمي حاليا">
                     </div>
                     <div class="mb-4">
-                        <input id="motherWork" class="py-2 px-3" type="text" placeholder="عمل الوالده" required>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <select id="residence" class="py-2 px-3" name="" required>
-                            <option value="سكن الزوجية هيكون في">سكن الزوجية هيكون في</option>
-                            <option value="المحافظة ">المحافظة</option>
-                            <option value="المدينة">المدينة</option>
-                        </select>
-                    </div>
-                    <div class="mb-4">
-                        <select id="prayers" class="py-2 px-3" name="" required>
-                            <option value="هل تحافظ علي الصلوات الخمس">هل تحافظ علي الصلوات الخمس</option>
+                        <select name="" class="py-2 px-3" id="prayers">
+                            <option value="هل تحافظي على الصلوات الخمس">هل تحافظي على الصلوات الخمس</option>
                             <option value="نعم">نعم</option>
                             <option value="لا">لا</option>
-                            <option value="متقطع">متقطع</option>
+                            <option value="متقطعة">متقطعة</option>
                         </select>
                     </div>
-                    <div class="mb-4">
-                        <select id="flat" class="py-2 px-3" name="">
-                            <option value="هل الشقة">هل الشقة</option>
-                            <option value="إيجار منفصل عن بيت العيله  ">إيجار منفصل عن بيت العيله</option>
-                            <option value="إيجار في بيت العيله ">إيجار في بيت العيله</option>
-                            <option value="تمليك منفصل عن بيت العيله  ">تمليك منفصل عن بيت العيله</option>
-                            <option value="تمليك في بيت العيله ">تمليك في بيت العيله</option>
-                        </select>
-                    </div>
-                    
                 </div>
                 <div class="div-holder d-flex justify-content-between align-items-center">
                     <div class="mb-4 w-50">
-                        <textarea id="nationality" class="w-100 py-2 px-3" name="" placeholder="الجنسية والاصل من اي محافظة" required></textarea>
+                        <textarea name="" id="nationality" class="w-100 py-2 px-3" placeholder="الجنسية والاصل من اي محافظة"></textarea>
                     </div>
                     <div class="mb-4 w-50 me-2">
-                        <textarea id="currentResidence" class="w-100 py-2 px-3" name="" placeholder="اين تقيم حاليا (المحافظة او المدينة)" required></textarea>
+                        <textarea name="" id="religiousAffiliations" class="w-100 py-2 px-3" placeholder="هل لديكي انتماءات دينية"></textarea>
                     </div>
                 </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <select id="bearded" class="py-2 px-3" name="" required>
-                            <option value="هل ملتحي">هل ملتحي</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                    <div class="mb-4">
-                        <select id="smoker" class="py-2 px-3" name="" required>
-                            <option value="هل مدخن">هل مدخن</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                    <div class="mb-4">
-                        <select id="musicAndMovies" class="py-2 px-3" name="" required>
-                            <option value="هل تسمع الاغاني أو تشاهد الأفلام">هل تسمع الاغاني أو تشاهد الأفلام</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4 w-100">
-                        <textarea id="siblingsAmdCollege" class="w-100 py-2 px-3" name="" placeholder="عدد الأخوات وكليتهم" required></textarea>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <select id="maritalMovables" class="py-2 px-3" name="" required>
-                            <option value="هل لديك المقدرة على فرش شقتك بالكامل على الا يوجد قائمة منقولات زوجيه">هل لديك المقدرة على فرش شقتك بالكامل على الا يوجد قائمة منقولات زوجيه</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <select id="diseasesOrDisabilities" class="py-2 px-3" name="" required>
-                            <option value="هل تعانى من اى امراض او اعاقات">هل تعانى من اى امراض او اعاقات</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                    <div class="mb-4">
-                        <select class="py-2 px-3" name="" id="haveAProblemWithDiseasesOrDisabilities" required>
-                            <option value="هل تقبل طلبات التواصل  المرسلة من ذوي الاعاقات">هل تقبل طلبات التواصل  المرسلة من ذوي الاعاقات</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                            <option value="على حسب  الاعاقة">على حسب  الاعاقة</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <select id="pictureOfTheWoman" class="py-2 px-3" name="" required>
-                            <option value="هل تشترط صورة للعروس قبل الرؤية الشرعية">هل تشترط صورة للعروس قبل الرؤية الشرعية</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                    <div class="mb-4 w-50">
-                        <input id="quran" class="py-2 px-3 w-100" type="text" placeholder="مقدار حفظ القرأن" required>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4 w-100">
-                        <textarea id="brief" class="w-100 py-2 px-3" name="" placeholder="تكلم عن نفسك ( او ما يقوله الناس عنك )" required></textarea>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4 w-100">
-                        <textarea id="specifications" class="w-100 py-2 px-3" name="" placeholder="المواصفات المطلوبة في شريكة الحياة" required></textarea>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <select id="brideMaritalStatus" class="py-2 px-3" name="" required>
-                            <option value="ما الحالة الاجتماعية للعروسة">ما الحالة الاجتماعية للعروسة</option>
-                            <option value="آنسة ">آنسة</option>
-                            <option value="مطلقة">مطلقة</option>
-                            <option value="أرملة">أرملة</option>
-                        </select>
-                    </div>
-                    <div class="mb-4">
-                        <select id="divorcedOrWidowedWithoutChildren" class="py-2 px-3" name="">
-                            <option value="هل توافق بمطلقة او ارملة بدون اطفال">هل توافق بمطلقة او ارملة بدون اطفال</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <select id="divorcedOrWidowedWithChildren" class="py-2 px-3" name="" required>
-                            <option value="هل توافق بمطلقة او ارملة معها اطفال">هل توافق بمطلقة او ارملة معها اطفال</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                    <div class="mb-4">
-                        <select id="divorcedHerChildrenInFatherCustody" class="py-2 px-3" name="">
-                            <option value="هل توافق بمطلقة اطفالها فى حضانه والدهم">هل توافق بمطلقة اطفالها فى حضانه والدهم</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <select id="acceptMarriageToAnotherNationality" class="py-2 px-3" name="" required>
-                            <option value="هل تقبل الزواج من جنسية أخرى">هل تقبل الزواج من جنسية أخرى</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                    <div class="mb-4">
-                        <select id="acceptBrideFromAnotherState" class="py-2 px-3" name="" required>
-                            <option value="هل تقبل العروسة من أي محافظة أخرى">هل تقبل العروسة من أي محافظة أخرى</option>
-                            <option value="نعم">نعم</option>
-                            <option value="لا">لا</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="div-holder d-flex justify-content-between align-items-center">
-                    <div class="mb-4">
-                        <input id="rightAge" class="py-2 px-3" type="number" placeholder="السن المناسب لك" required>
-                    </div>
-                    <div class="mb-4">
-                        <input id="brideSkin" class="py-2 px-3" type="text" placeholder="لون بشرة العروسة" required>
-                    </div>
-                    <div class="mb-4">
-                        <select id="hijabOrNiqab" class="py-2 px-3" name="" required>
-                            <option value="حجاب ولا نقاب">حجاب ولا نقاب</option>
-                            <option value="حجاب">حجاب</option>
-                            <option value="نقاب">نقاب</option>
-                            <option value="كلاهما ">كلاهما </option>
-                        </select>
-                    </div>
-                    <div class="mb-4">
-                        <select id="brideQualification" class="py-2 px-3" name="" required>
-                            <option value="مؤهل العروسة">مؤهل العروسة</option>
-                            <option value="عالى ">عالى </option>
-                            <option value="متوسط ">متوسط </option>
-                            <option value="كلاهما ">كلاهما </option>
-                        </select>
-                    </div>
-                </div>
+
+
                 <div class="div-holder d-flex justify-content-between align-items-center">
                     <div class="mb-4 w-100">
                         <textarea id="message" class="w-100 py-2 px-3" name="" id="" placeholder="هل لديك اى اضافة او ملحوظة"></textarea>

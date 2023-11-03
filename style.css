@@ -10,7 +10,7 @@ body{
     width: 100%;
     height: auto;
     font-family: 'Cairo', sans-serif;
-    background-color: blueviolet;
+    background-color: #ff1a79;
 }
 .container{
     padding-left: 15px;
@@ -71,7 +71,8 @@ textarea{
 button{
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: blueviolet;
+    outline: none;
+    background-color: #ff1a79;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
